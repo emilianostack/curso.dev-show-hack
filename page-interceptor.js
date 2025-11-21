@@ -17,11 +17,11 @@
         const clone = response.clone();
         clone.json().then((data) => {
           window.dispatchEvent(
-            new CustomEvent("cursoDevNextQuestion", { detail: data })
+            new CustomEvent("cursoDevQuestion", { detail: data })
           );
         });
       } catch (err) {
-        console.warn("Erro ao ler JSON do NEXT:", err);
+        console.warn("Erro ao ler JSON:", err);
       }
 
       return response;

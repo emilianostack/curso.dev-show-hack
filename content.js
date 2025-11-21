@@ -1,7 +1,7 @@
 chrome.runtime.sendMessage({ action: "injectInterceptor" });
 
-window.addEventListener("cursoDevNextQuestion", async (ev) => {
-  const { question_id, answers, difficulty } = ev.detail;
+window.addEventListener("cursoDevQuestion", async (ev) => {
+  const { question_id, difficulty } = ev.detail;
 
   let correct = null;
 
