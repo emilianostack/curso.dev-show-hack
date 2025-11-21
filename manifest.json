@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Curso.dev Hack",
+  "version": "1.0",
+  "host_permissions": ["https://curso.dev/*"],
+  "permissions": ["scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://curso.dev/show*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
