@@ -15,3 +15,9 @@ Como utilizar:
 
   <img width="1678" height="799" alt="image" src="https://github.com/user-attachments/assets/167fe71a-6560-46e9-9d7f-90ab956ba067" />
 
+
+Este projeto foi desenvolvido exclusivamente para fins de estudo e pesquisa educacional.
+Não é destinado — e não deve ser utilizado — para obter vantagem indevida, burlar sistemas de avaliação ou violar os termos de uso da plataforma curso.dev.
+
+O autor não se responsabiliza por qualquer uso inadequado deste código.
+Use apenas em ambiente controlado e para compreensão de requisições, APIs e desenvolvimento de extensões Chrome.
